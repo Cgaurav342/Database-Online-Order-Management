@@ -14,4 +14,5 @@ This project contains a PostgreSQL database schema and sample data loading proce
    psql -U <username> -d <database_name> -f create.sql
 
 2. **Load Data**
+   ```bash
     psql -U <username> -d <database_name> -f load.sql
