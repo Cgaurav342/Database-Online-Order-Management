@@ -1,0 +1,12 @@
+\COPY geolocation FROM 'File Path\geolocation.csv' DELIMITER ',' CSV HEADER;
+\COPY sellers FROM 'File Path\sellers.csv' DELIMITER ',' CSV HEADER;
+\COPY customers FROM 'File Path\customers.csv' DELIMITER ',' CSV HEADER;
+\COPY leads_qualified FROM 'File Path\leads_qualified.csv' DELIMITER ',' CSV HEADER;
+\COPY leads_closed FROM 'File Path\leads_closed.csv' DELIMITER ',' CSV HEADER;
+\COPY geolocation_old FROM 'File Path\geolocation_old.csv' DELIMITER ',' CSV HEADER;
+\COPY orders FROM 'File Path\orders.csv' DELIMITER ',' CSV HEADER;
+\COPY product_category_name_translation FROM 'File Path\product_category_name_translation.csv' DELIMITER ',' CSV HEADER;
+\COPY products FROM 'File Path\products.csv' DELIMITER ',' CSV HEADER;
+\COPY order_items FROM 'File Path\order_items.csv' DELIMITER ',' CSV HEADER;
+\COPY order_payments FROM 'File Path\order_payments.csv' DELIMITER ',' CSV HEADER;
+\COPY order_reviews FROM 'File Path\order_reviews.csv' DELIMITER ',' CSV HEADER;
